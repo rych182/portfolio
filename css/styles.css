@@ -10231,6 +10231,9 @@ span .text-primary {
     color: #6495ED;
 }
 
+
+/*----------REDES SOCIALES----------*/
+
 .social-icons .social-icon.twitter:hover {
     background-color: #00acee;
     transform: rotate( -180deg) scale( 1.4, 1.4);
@@ -10290,4 +10293,16 @@ span .text-primary {
 .animate__slideInUp {
     animation: slideInUp;
     animation-duration: 2s;
+}
+
+
+/*--------------Animación menú e iconos----------*/
+
+li>a:hover {
+    transform: scale( 1.4, 1.4);
+    transition: transform 450ms ease;
+}
+
+li>span>i {
+    background-color: red;
 }
