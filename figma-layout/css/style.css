@@ -78,6 +78,9 @@ body {
 /*RESPONSIVE*/
 
 @media screen and (max-width: 800px) {
+    body {
+        overflow: hidden;
+    }
     .contenedor {
         flex-direction: column-reverse;
     }
