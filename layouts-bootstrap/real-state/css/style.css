@@ -94,3 +94,88 @@ h4 {
 .card-descripcion img {
     margin-right: .5rem;
 }
+
+
+/*--------------Encuentra----------*/
+
+.encuentra {
+    background-image: url(../img/contacto.jpg);
+    /*Por default todos los background se repiten*/
+    background-repeat: no-repeat;
+    /*Cuando dejas de repetirlo, se corta y para eso uso el cover*/
+    background-size: cover;
+}
+
+.encuentra .row {
+    height: 25rem;
+}
+
+.encuentra h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+/*------BLOG-------*/
+
+.entrada h3::after {
+    /*Pseudoelemento que no existe(la linea verder del blog)*/
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+
+.meta span {
+    color: #e08709;
+}
+
+.btn-success {
+    background-color: #71b100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-success:hover {
+    background-color: #69a403;
+}
+
+
+/*-------TESTIMONIALES--------*/
+
+.testimoniales {
+    background-color: #71b100;
+}
+
+.testimoniales .carousel-item {
+    padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.testimoniales .testimonial-texto::before {
+    content: open-quote;
+    font-size: 4rem;
+    /*carousel-item ya tiene por default una posición relativa, por eso uso position absolute*/
+    position: absolute;
+    /*Para que no lo encime*/
+    left: 0;
+    top: 1rem;
+    font-weight: 900;
+}
+
+.testimoniales span {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.footer .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
