@@ -1,0 +1,96 @@
+:root {
+    --primario: #71b100;
+    --secundario: #e08709;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+}
+
+.altura {
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .barra.bg-dark {
+        background-color: transparent!important;
+    }
+    header {
+        position: relative;
+    }
+    .header .barra {
+        /*Para que se ponga el menu sobre la imagen*/
+        position: absolute;
+        z-index: 1;
+        /*Para que tome el 100 porque ya respeta del todo el flexbox de bootstrap*/
+        width: 100%;
+    }
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.navbar-brand span {
+    font-weight: 900;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: .8rem;
+}
+
+.dropdown-menu .dropdown-item {
+    color: cornflowerblue;
+    text-transform: uppercase;
+}
+
+
+/*-----Carousel------*/
+
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+
+.bloque-info p {
+    font-size: 1.4rem;
+}
+
+.btn-warning {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    font-weight: 700;
+}
+
+
+/*------------------ NOSOTROS-----------*/
+
+.sobre-nosotros h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/*---------ANUNCIOS-----------*/
+
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+
+.card-precio {
+    font-size: 1.1rem;
+    color: #71b100;
+}
+
+.card-descripcion img {
+    margin-right: .5rem;
+}
