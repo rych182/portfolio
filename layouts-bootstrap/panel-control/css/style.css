@@ -1,0 +1,79 @@
+:root {
+    --primero: #8bc34a;
+    --segundo: #03a9f4;
+    --tercero: #ab47bc;
+    --cuarto: #ffb300;
+    --gris: #ecf0f5;
+    --azul: #25476a;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+body.login {
+    background-image: url(../img/libros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.login .contenido {
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 7px 31px 3px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 14px 7px 31px 3px rgba(0, 0, 0, 0.49);
+    box-shadow: 14px 7px 31px 3px rgba(0, 0, 0, 0.49);
+}
+
+.bg-success,
+.btn-success {
+    background-color: #8bc34a!important;
+}
+
+.btn-primary,
+.bg-primary {
+    background-color: #03a9f4!important;
+}
+
+.bd-narvbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+}
+
+aside {
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    /*56px es lo que mide la barra de header*/
+    margin-top: 56px;
+    /*Para garantizar que ningún elemento se encima a la barra lateral*/
+    top: 0;
+    bottom: 0;
+}
+
+main {
+    /*Para que se centre bien el voton grande verde*/
+    /*260 es lo que mide el ancho del aside*/
+    margin-left: 260px;
+    position: relative;
+    left: 0;
+    min-height: 100%;
+}
+
+.boton {
+    min-height: 120px;
+}
+
+.boton i {
+    font-size: 3rem;
+}
+
+.boton a:hover {
+    color: white!important;
+    text-decoration: none;
+}
