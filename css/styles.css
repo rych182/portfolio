@@ -10252,6 +10252,18 @@ span .text-primary {
     transition: transform 450ms ease;
 }
 
+.social-icons .social-icon.medium:hover {
+    background-color: #00ab6c;
+    transform: rotate( -180deg) scale( 1.4, 1.4);
+    transition: transform 450ms ease;
+}
+
+.social-icons .social-icon.dev:hover {
+    background-color: 0a0a0a;
+    transform: rotate( -180deg) scale( 1.4, 1.4);
+    transition: transform 450ms ease;
+}
+
 @media only screen and (max-width: 600px) {
     .social-icons .social-icon.twitter {
         background-color: #00acee;
@@ -10264,6 +10276,16 @@ span .text-primary {
     .social-icons .social-icon.linkedin {
         background-color: #2867B2;
         transform: rotate( -180deg);
+    }
+    .social-icons .social-icon.medium {
+        background-color: #00ab6c;
+        transform: rotate( -180deg) scale( 1.4, 1.4);
+        transition: transform 450ms ease;
+    }
+    .social-icons .social-icon.dev {
+        background-color: #0a0a0a;
+        transform: rotate( -180deg) scale( 1.4, 1.4);
+        transition: transform 450ms ease;
     }
 }
 
